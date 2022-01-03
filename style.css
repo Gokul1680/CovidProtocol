@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;500&display=swap');
+*{
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+#iCon
+{
+    background-image: url("OmegaDeveloprs_.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 20;
+    width: 42px;
+    height: 42px;
+}
+header
+{
+    background: #111;
+    color: #fff;
+    height: 4rem;
+    font-family: Montserrat;
+    margin: 0;
+    display: flex;
+    padding: 0 1%;
+    align-items: center;
+    font-size: 1.5em;
+}
+#questions{
+    font-size: large;
+    text-align: left;
+    margin: 50px;
+}
+button{
+    padding: 3px;
+    min-width: 60px;
+    margin: 5px;
+}
